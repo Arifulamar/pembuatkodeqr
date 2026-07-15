@@ -1,0 +1,146 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #555;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    padding: 10px 5px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.btn-generate {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    border: none;
+    color: white;
+    padding: 12px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-generate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+
+
+.qr-container {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border: 5px solid #007bff;
+}
+
+#qrCode {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    border: 10px solid white;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+}
+
+.btn-action {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-download {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-whatsapp {
+    background-color: #25D366;
+    color: white;
+}
+
+.btn-discord {
+    background-color: #7289DA;
+    color: white;
+}
+
+.btn-action:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.social-links a {
+    color: #333;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
